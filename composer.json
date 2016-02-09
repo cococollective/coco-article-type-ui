@@ -14,7 +14,6 @@
   "require": {
     "composer/installers": "~1.0",
     "cococollective/coco-article": "7.*",
-    "drupal/entityreference": "7.*",
     "drupal/inline_entity_form": "7.*"
   },
   "extra": {
