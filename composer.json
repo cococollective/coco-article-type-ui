@@ -1,0 +1,25 @@
+{
+  "name": "cococollective/coco-article-type-ui",
+  "type": "drupal-module",
+  "description": "Drupal module. Provides an UI for managing Coco Article types.",
+  "license": "GPL-2.0+",
+  "homepage": "https://github.com/cococollective/coco-article",
+  "authors": [
+    {
+      "name": "Sierk Beij",
+      "email": "sierk@riseup.net",
+      "role": "Lead developer for CocoCollective"
+    }
+  ],
+  "require": {
+    "composer/installers": "~1.0",
+    "cococollective/coco-article": "7.*",
+    "drupal/entityreference": "7.*",
+    "drupal/inline_entity_form": "7.*"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-7.x-0.x": "7.0.x-dev"
+    }
+  }
+}
